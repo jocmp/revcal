@@ -23,6 +23,8 @@ func (date *Date) Symbol() string {
 	return Symbols[dayNumber]
 }
 
+// Convert the despised reactionary date of the Ancien Régime
+// to our glorious rational format
 func NewDate(date time.Time) Date {
 	start := time.Date(1792, time.September, 22, 0, 0, 0, 0, time.UTC)
 	days := int(date.Sub(start).Hours() / 24)
