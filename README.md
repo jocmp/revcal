@@ -45,4 +45,5 @@ July Monarchy in 1830, as well as the return of the Bonaparte dynasty for one la
 
 ## Other notes
 
-Follows the [golang-standards](https://github.com/golang-standards/project-layout) project layout.
+* I've restructured the Ruby version here https://github.com/jocmp/revcal_rb
+* Follows the [golang-standards](https://github.com/golang-standards/project-layout) project layout.
