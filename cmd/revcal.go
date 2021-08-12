@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+
+	revcal "github.com/jocmp/revcal/pkg"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	date := revcal.NewDate(time.Now())
+	date.Format()
+	fmt.Printf("Today is %s celebrating the %s.\n", date.Format(), date.Symbol())
 }
