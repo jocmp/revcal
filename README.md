@@ -9,14 +9,14 @@ to conform to Go verbage.
 
 The script "revcal" without any arguments returns the current date in
 the revolutionary calendar, along with the associated concept for the
-day. TODO: Providing a date (in a standard format that the Go time package
+day. Providing a date (in a standard format that the Go time package
 can parse), returns the value for that date instead (which is useful
 for looking up one's birthday, for instance.)
 
 revcal is a script that converts standard Gregorian dates
 into those used by the [French Republican Calendar](http://en.wikipedia.org/wiki/French_Republican_Calendar).
 This was the calendar used by the Republican government in France between 1793 and
-1805. Its structure reflects the secular, rational ideals of the time,
+1.    Its structure reflects the secular, rational ideals of the time,
 with 12 months of a uniform 30 days, broken into 3 10-day "weeks". The
 remaining five days of the year (or 6 in leap years) were filled with
 monthless year-end celebrations. Year 1 of the calendar started in
