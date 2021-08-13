@@ -9,9 +9,16 @@ to conform to Go verbage.
 
 The script "revcal" without any arguments returns the current date in
 the revolutionary calendar, along with the associated concept for the
-day. Providing a date (in a standard format that the Go time package
+day. Providing a date (in the standard ISO 8601 date format that the time package
 can parse), returns the value for that date instead (which is useful
 for looking up one's birthday, for instance.)
+
+```bash
+ ./revcal 2021-01-02
+Today is 13 Nivôse 229 celebrating the Ardoise (Slate).
+./revcal
+Today is 26 Thermidor 229 celebrating the Myrte (Myrtle).
+```
 
 revcal is a script that converts standard Gregorian dates
 into those used by the [French Republican Calendar](http://en.wikipedia.org/wiki/French_Republican_Calendar).
