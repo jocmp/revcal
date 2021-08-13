@@ -1,2 +1,2 @@
-revcal: 
-	go build -o revcal ./cmd/
+revcal:
+	go build -v -o revcal ./cmd/
